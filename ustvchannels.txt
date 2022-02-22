@@ -1,0 +1,34 @@
+ABC | ABC | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/abc.png | 110 | I54231.json.schedulesdirect.org
+CBS | CBS | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/cbs.png | 111 | I44991.json.schedulesdirect.org
+FOX | FOX | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/fox.png | 112 | I54251.json.schedulesdirect.org
+TBS | TBS | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/tbs.png | 120 | I11867.json.schedulesdirect.org
+POP | POP | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/pop.png | 121 | I16715.json.schedulesdirect.org
+BBC AMERICA | BBCAmerica | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/bbcamerica.png | 131 | I64492.json.schedulesdirect.org
+BRAVO | Bravo | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/bravo.png | 132 | I58625.json.schedulesdirect.org
+AMC | AMC | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/amc.png | 133 | I59337.json.schedulesdirect.org
+FX  | FX | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/fx.png | 135 | I14321.json.schedulesdirect.org
+FXX  | FXX | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/fxx.png | 136 | I17927.json.schedulesdirect.org
+HALLMARK | Hallmark | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/hallmark.png | 150 | I11221.json.schedulesdirect.org
+HMM | HMM | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/hallmark.png | 151 | I61522.json.schedulesdirect.org
+SYFY | SYFY | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/syfy.png | 160 | I11097.json.schedulesdirect.org
+TVLAND | TVLand | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/tvland.png | 171 | I16123.json.schedulesdirect.org
+FREEFORM | Freeform | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/freeform.png | 172 | I10093.json.schedulesdirect.org
+COMEDY CENTRAL | Comedy | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/comedycentral.png | 200 | I10149.json.schedulesdirect.org
+FOOD NETWORK | FoodNetwork | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/foodnetwork.png | 300 | I50747.json.schedulesdirect.org
+HGTV | HGTV | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/hgtv.png | 310 | I49788.json.schedulesdirect.org
+DIY | DIY | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/diy.png | 311 | I67375.json.schedulesdirect.org
+TRAVEL | Travel | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/travel.png | 320 | I59303.json.schedulesdirect.org
+SCI | Science | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/science.png | 332 | I57390.json.schedulesdirect.org
+TLC | TLC | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/tlc.png | 333 | I57391.json.schedulesdirect.org
+DESTINATION AMERICA  | DA | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/da.png | 334 | I60468.json.schedulesdirect.org
+CARTOON NETWORK | CN | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/cartoonnetwork.png | 400 | I12131.json.schedulesdirect.org
+NICKELODEON | Nickelodeon | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/nickelodeon.png | 401 | I11006.json.schedulesdirect.org
+BOOMERANG  | Boomerang | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/boomerang.png | 411 | I21883.json.schedulesdirect.org
+GSN | GSN | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/gsn.png | 500 | I14909.json.schedulesdirect.org
+CMT | CMT | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/cmt.png | 600 | I10138.json.schedulesdirect.org
+MSNBC | MSNBC | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/msnbc.png | 813 | I16300.json.schedulesdirect.org
+CBS SPORTS | CBSSN | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/cbssports.png | 910 | I16365.json.schedulesdirect.org
+ESPN2 | ESPN2 | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/espn2.png | 912 | I12444.json.schedulesdirect.org
+FS2 | FS2 | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/fs2.png | 914 | I33178.json.schedulesdirect.org
+WWE | WWE | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/wwe.png | 960 | I90143.json.schedulesdirect.org
+OLYMPICS  | OLY | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/olympics.png | 990 | I104089.json.schedulesdirect.org
