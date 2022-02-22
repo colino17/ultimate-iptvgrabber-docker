@@ -20,7 +20,7 @@ CINEMAX | Cinemax | https://raw.githubusercontent.com/colino17/ultimate-iptvgrab
 FX | FX | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/fx.png | 141 | I14321.json.schedulesdirect.org
 FXX | FXX | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/fxx.png | 142 | I17927.json.schedulesdirect.org
 FXM | FXMovie | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/fxm.png | 143 | FXM
-STARZ | StarZ | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/starz.png | 144 | STARZ
+STARZ | StarZ | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/starz.png | 144 | I12719.json.schedulesdirect.org
 HALLMARK | Hallmark | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/hallmark.png | 150 | I11221.json.schedulesdirect.org
 HMM | HMM | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/hallmark.png | 151 | I61522.json.schedulesdirect.org
 LIFETIME | Lifetime | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/lifetime.png | 152 | LIFETIME
@@ -36,9 +36,9 @@ TRAVEL | Travel | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabbe
 SCI | Science | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/science.png | 332 | I57390.json.schedulesdirect.org
 TLC | TLC | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/tlc.png | 333 | I57391.json.schedulesdirect.org
 DESTINATION AMERICA | DA | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/da.png | 334 | I60468.json.schedulesdirect.org
-MOTORTREND | MotorTrend | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/motortrend.png | 340 | MOTORTREND
+MOTORTREND | MotorTrend | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/motortrend.png | 340 | I31046.json.schedulesdirect.org
 ANIMAL PLANET | Animal | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/animalplanet.png | 350 | ANIMAL PLANET
-NATGEO WILD | NatGEOWild | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/natgeowild.png | 351 | NATGEOWILD
+NATGEO WILD | NatGEOWild | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/natgeowild.png | 351 | I67331.json.schedulesdirect.org
 E! | E | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/e.png | 390 | E
 CARTOON NETWORK | CN | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/cartoonnetwork.png | 400 | I12131.json.schedulesdirect.org
 NICKELODEON | Nickelodeon | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/nickelodeon.png | 401 | I11006.json.schedulesdirect.org
