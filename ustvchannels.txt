@@ -1,34 +1,60 @@
-ABC | ABC | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/abc.png | 110 | I54231.json.schedulesdirect.org
-CBS | CBS | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/cbs.png | 111 | I44991.json.schedulesdirect.org
-FOX | FOX | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/fox.png | 112 | I54251.json.schedulesdirect.org
-TBS | TBS | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/tbs.png | 120 | I11867.json.schedulesdirect.org
-POP | POP | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/pop.png | 121 | I16715.json.schedulesdirect.org
-BBC AMERICA | BBCAmerica | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/bbcamerica.png | 131 | I64492.json.schedulesdirect.org
-BRAVO | Bravo | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/bravo.png | 132 | I58625.json.schedulesdirect.org
-AMC | AMC | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/amc.png | 133 | I59337.json.schedulesdirect.org
-FX  | FX | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/fx.png | 135 | I14321.json.schedulesdirect.org
-FXX  | FXX | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/fxx.png | 136 | I17927.json.schedulesdirect.org
-HALLMARK | Hallmark | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/hallmark.png | 150 | I11221.json.schedulesdirect.org
-HMM | HMM | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/hallmark.png | 151 | I61522.json.schedulesdirect.org
-SYFY | SYFY | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/syfy.png | 160 | I11097.json.schedulesdirect.org
-TVLAND | TVLand | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/tvland.png | 171 | I16123.json.schedulesdirect.org
-FREEFORM | Freeform | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/freeform.png | 172 | I10093.json.schedulesdirect.org
-COMEDY CENTRAL | Comedy | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/comedycentral.png | 200 | I10149.json.schedulesdirect.org
-FOOD NETWORK | FoodNetwork | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/foodnetwork.png | 300 | I50747.json.schedulesdirect.org
-HGTV | HGTV | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/hgtv.png | 310 | I49788.json.schedulesdirect.org
-DIY | DIY | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/diy.png | 311 | I67375.json.schedulesdirect.org
-TRAVEL | Travel | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/travel.png | 320 | I59303.json.schedulesdirect.org
-SCI | Science | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/science.png | 332 | I57390.json.schedulesdirect.org
-TLC | TLC | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/tlc.png | 333 | I57391.json.schedulesdirect.org
-DESTINATION AMERICA  | DA | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/da.png | 334 | I60468.json.schedulesdirect.org
-CARTOON NETWORK | CN | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/cartoonnetwork.png | 400 | I12131.json.schedulesdirect.org
-NICKELODEON | Nickelodeon | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/nickelodeon.png | 401 | I11006.json.schedulesdirect.org
-BOOMERANG  | Boomerang | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/boomerang.png | 411 | I21883.json.schedulesdirect.org
-GSN | GSN | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/gsn.png | 500 | I14909.json.schedulesdirect.org
-CMT | CMT | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/cmt.png | 600 | I10138.json.schedulesdirect.org
-MSNBC | MSNBC | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/msnbc.png | 813 | I16300.json.schedulesdirect.org
-CBS SPORTS | CBSSN | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/cbssports.png | 910 | I16365.json.schedulesdirect.org
-ESPN2 | ESPN2 | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/espn2.png | 912 | I12444.json.schedulesdirect.org
-FS2 | FS2 | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/fs2.png | 914 | I33178.json.schedulesdirect.org
-WWE | WWE | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/wwe.png | 960 | I90143.json.schedulesdirect.org
-OLYMPICS  | OLY | https://raw.githubusercontent.com/colino17/ultra-xteve-docker/master/logos/olympics.png | 990 | I104089.json.schedulesdirect.org
+ABC | ABC | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/abc.png | 110 | I54231.json.schedulesdirect.org
+ABC | ABCNY | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/abc.png | 110 | I54231.json.schedulesdirect.org
+CBS | CBSNY | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/cbs.png | 111 | I44991.json.schedulesdirect.org
+CBS | CBS | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/cbs.png | 111 | I44991.json.schedulesdirect.org
+FOX | FOX | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/fox.png | 112 | I54251.json.schedulesdirect.org
+FOX | FOXNY | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/fox.png | 112 | I54251.json.schedulesdirect.org
+CW | CW | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/cw.png | 114 | I52329.json.schedulesdirect.org
+CW | CWNY | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/cw.png | 114 | I52329.json.schedulesdirect.org
+ION | IONNY | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/ion.png | 115 | WPXN
+PBS | PBS | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/pbs.png | 116 | WNET
+TBS | TBS | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/tbs.png | 120 | I11867.json.schedulesdirect.org
+POP | POP | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/pop.png | 121 | I16715.json.schedulesdirect.or
+TRUTV | TruTV | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/trutv.png | 122 | TRUTV
+WETV | WETV | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/wetv.png | 123 | WETV
+SUNDANCE | SundanceTV | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/sundance.png | 130 | SUNDANCE
+BBC AMERICA | BBCAmerica | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/bbcamerica.png | 131 | I64492.json.schedulesdirect.org
+BRAVO | Bravo | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/bravo.png | 132 | I58625.json.schedulesdirect.org
+AMC | AMC | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/amc.png | 133 | I59337.json.schedulesdirect.org
+CINEMAX | Cinemax | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/cinemax.png | 140 | I10120.json.schedulesdirect.org
+FX | FX | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/fx.png | 141 | I14321.json.schedulesdirect.org
+FXX | FXX | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/fxx.png | 142 | I17927.json.schedulesdirect.org
+FXM | FXMovie | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/fxm.png | 143 | FXM
+STARZ | StarZ | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/starz.png | 144 | STARZ
+HALLMARK | Hallmark | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/hallmark.png | 150 | I11221.json.schedulesdirect.org
+HMM | HMM | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/hallmark.png | 151 | I61522.json.schedulesdirect.org
+LIFETIME | Lifetime | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/lifetime.png | 152 | LIFETIME
+LMN | LifetimeM | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/lmn.png | 153 | LMN
+SYFY | SYFY | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/syfy.png | 160 | I11097.json.schedulesdirect.org
+TVLAND | TVLand | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/tvland.png | 171 | I16123.json.schedulesdirect.org
+FREEFORM | Freeform | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/freeform.png | 172 | I10093.json.schedulesdirect.org
+COMEDY CENTRAL | Comedy | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/comedycentral.png | 200 | I10149.json.schedulesdirect.org
+FOOD NETWORK | FoodNetwork | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/foodnetwork.png | 300 | I50747.json.schedulesdirect.org
+HGTV | HGTV | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/hgtv.png | 310 | I49788.json.schedulesdirect.org
+DIY | DIY | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/diy.png | 311 | I67375.json.schedulesdirect.org
+TRAVEL | Travel | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/travel.png | 320 | I59303.json.schedulesdirect.org
+SCI | Science | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/science.png | 332 | I57390.json.schedulesdirect.org
+TLC | TLC | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/tlc.png | 333 | I57391.json.schedulesdirect.org
+DESTINATION AMERICA | DA | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/da.png | 334 | I60468.json.schedulesdirect.org
+MOTORTREND | MotorTrend | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/motortrend.png | 340 | MOTORTREND
+ANIMAL PLANET | Animal | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/animalplanet.png | 350 | ANIMAL PLANET
+NATGEO WILD | NatGEOWild | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/natgeowild.png | 351 | NATGEOWILD
+E! | E | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/e.png | 390 | E
+CARTOON NETWORK | CN | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/cartoonnetwork.png | 400 | I12131.json.schedulesdirect.org
+NICKELODEON | Nickelodeon | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/nickelodeon.png | 401 | I11006.json.schedulesdirect.org
+BOOMERANG | Boomerang | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/boomerang.png | 411 | I21883.json.schedulesdirect.org
+DISNEY | Disney | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/disney.png | 440 | DISNEY
+DISNEYXD | DisneyXD | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/disneyxd.png | 441 | DISNEYXD
+DISNEYJR | DisneyJr | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/disneyjr.png | 442 | DISNEYJR
+GSN | GSN | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/gsn.png | 500 | I14909.json.schedulesdirect.org
+CMT | CMT | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/cmt.png | 600 | I10138.json.schedulesdirect.org
+MTV | MTV | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/mtv.png | 601 | MTV
+CNN | CNN | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/cnn.png | 810 | I58646.json.schedulesdirect.org
+MSNBC | MSNBC | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/msnbc.png | 813 | I16300.json.schedulesdirect.org
+CBS SPORTS | CBSSN | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/cbssports.png | 910 | I16365.json.schedulesdirect.org
+ESPN2 | ESPN2 | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/espn2.png | 912 | I12444.json.schedulesdirect.org
+FS2 | FS2 | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/fs2.png | 914 | I33178.json.schedulesdirect.org
+MLB | MLB | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/mlb.png | 930 | MLB
+NFL | NFLRZ | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/nfl.png | 940 | NFL
+WWE | WWE | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/wwe.png | 960 | I90143.json.schedulesdirect.org
+OLYMPICS | OLY | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/olympics.png | 990 | I104089.json.schedulesdirect.org
