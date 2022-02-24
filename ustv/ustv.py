@@ -59,7 +59,7 @@ def grab(name, code, logo, cuid, tvgid):
         write_log(f'[!] Error grabbing {name} - This channel requires VPN')
 
 total = 0
-with open('/ustvchannels.txt') as file:
+with open('/ustv/ustvchannels.txt') as file:
     for line in file:
         line = line.strip()
         if not line or line.startswith('~~'):
@@ -67,7 +67,7 @@ with open('/ustvchannels.txt') as file:
         total += 1
 
 s = requests.Session()
-with open('/ustvchannels.txt') as file:
+with open('/ustv/ustvchannels.txt') as file:
     with open('/playlists/ustvgo.m3u', 'w') as playlist:
         print('[*] Generating your playlist, please wait...\n')
         playlist.write('#EXTM3U x-tvg-url="https://raw.githubusercontent.com/Theitfixer85/myepg/master/blueepg.xml.gz"')
