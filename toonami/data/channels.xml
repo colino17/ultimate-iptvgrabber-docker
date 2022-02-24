@@ -5,7 +5,7 @@
         <display-name>TOONAMI EAST</display-name>
         <lang>en</lang>
         <country>us</country>
-        <icon>https://raw.githubusercontent.com/colino17/xuper-xteve/master/logos/toonamieast.png</icon>
+        <icon>https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/toonamieast.png</icon>
         <url>http://api.toonamiaftermath.com:3000/est/playlist.m3u8?useHttps=true</url>
         <schedule_url>https://api.toonamiaftermath.com/media?scheduleName=Toonami%20Aftermath%20EST</schedule_url>
         <episode_query_url>https://api.toonamiaftermath.com/mediainfo</episode_query_url>
@@ -18,7 +18,7 @@
         <display-name>TOONAMI WEST</display-name>
         <lang>en</lang>
         <country>us</country>
-        <icon>https://raw.githubusercontent.com/colino17/xuper-xteve/master/logos/toonamiwest.png</icon>
+        <icon>https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/toonamiwest.png</icon>
         <url>http://api.toonamiaftermath.com:3000/est/playlist.m3u8?streamDelay=180&amp;useHttps=true</url>
         <schedule_url>https://api.toonamiaftermath.com/media?scheduleName=Toonami%20Aftermath%20EST</schedule_url>
         <episode_query_url>https://api.toonamiaftermath.com/mediainfo</episode_query_url>
@@ -27,22 +27,11 @@
     </element>
 
     <element>
-        <id>3</id>
-        <display-name>TOONAMI MOVIES</display-name>
-        <lang>en</lang>
-        <country>us</country>
-        <icon>https://raw.githubusercontent.com/colino17/xuper-xteve/master/logos/toonamimovies.png</icon>
-        <url>http://api.toonamiaftermath.com:3000/movies/playlist.m3u8?useHttps=true</url>
-        <group>Kids</group>
-        <offset>+0000</offset>
-    </element>
-
-    <element>
         <id>4</id>
         <display-name>SNICK EAST</display-name>
         <lang>en</lang>
         <country>us</country>
-        <icon>https://raw.githubusercontent.com/colino17/xuper-xteve/master/logos/snickeast.png</icon>
+        <icon>https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/snickeast.png</icon>
         <url>http://api.toonamiaftermath.com:3000/snick-est/playlist.m3u8?useHttps=true</url>
         <schedule_url>https://api.toonamiaftermath.com/media?scheduleName=Snickelodeon%20EST</schedule_url>
         <episode_query_url>https://api.toonamiaftermath.com/mediainfo</episode_query_url>
@@ -55,7 +44,7 @@
         <display-name>SNICK WEST</display-name>
         <lang>en</lang>
         <country>us</country>
-        <icon>https://raw.githubusercontent.com/colino17/xuper-xteve/master/logos/snickwest.png</icon>
+        <icon>https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/snickwest.png</icon>
         <url>http://api.toonamiaftermath.com:3000/snick-est/playlist.m3u8?streamDelay=180&amp;useHttps=true</url>
         <schedule_url>https://api.toonamiaftermath.com/media?scheduleName=Snickelodeon%20EST</schedule_url>
         <episode_query_url>https://api.toonamiaftermath.com/mediainfo</episode_query_url>
@@ -68,7 +57,7 @@
         <display-name>MTV97</display-name>
         <lang>en</lang>
         <country>us</country>
-        <icon>https://raw.githubusercontent.com/colino17/xuper-xteve/master/logos/mtv.png</icon>
+        <icon>https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/mtv.png</icon>
         <url>http://api.toonamiaftermath.com:3000/mtv97/playlist.m3u8?useHttps=true</url>
         <group>Music</group>
         <offset>+0000</offset>
