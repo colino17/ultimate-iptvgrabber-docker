@@ -20,8 +20,7 @@ RUN apk add --no-cache ca-certificates
 RUN apk add --no-cache python3 py3-pip
 ADD requirements.txt /
 RUN pip install -r requirements.txt
-ADD ustv.py /
-ADD ustvchannels.txt /
+ADD ustv /ustv
 ADD logos /logos
 RUN mkdir /playlists
 
@@ -30,7 +29,7 @@ ADD toonami toonami/
 RUN mkdir /toonami/config
 
 # DUMMY XMLTV
-ADD dummyxmltv.sh /
+ADD dummy /dummy
 ADD extras /
 
 # TIMEZONE
@@ -54,7 +53,7 @@ RUN crontab crontab
 # PERMISSIONS
 RUN chmod +x /startup.sh
 RUN chmod +x /jobs.sh
-RUN chmod +x /dummyxmltv.sh
+RUN chmod +x /dummy/dummyxmltv.sh
 
 # ENTRYPOINT
 ENTRYPOINT ["./startup.sh"]
