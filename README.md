@@ -1,10 +1,6 @@
 # WHAT IS IT?
 
-A docker container running various IPTV Grabber services designed to be used either standalone or in conjunction with a TVHeadEnd instance.
-
-The chosen services (ZAP2XML, USTVGO, etc) are run every three hours as part of a cronjob. Once they are completed XTEVE's playlists and XMLTV will be updated via an API call (API must be enabled in XTEVE's settings).
-
-
+A docker container running various IPTV Grabber services designed to be used either standalone or in conjunction with a TVHeadEnd instance using API calls.
 
 # COMPOSE
 
