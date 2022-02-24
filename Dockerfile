@@ -4,6 +4,11 @@ FROM alpine:latest
 ENV USTV=true
 ENV DUMMY=true
 ENV TOONAMI=true
+ENV TVH=true
+ENV TVH_USER=
+ENV TVH_PASS=
+ENV TVH_IP=
+ENV USTV_UUID=
 ENV TZ=Canada/Atlantic
 
 # BASICS
@@ -51,9 +56,6 @@ RUN crontab crontab
 RUN chmod +x /startup.sh
 RUN chmod +x /jobs.sh
 RUN chmod +x /dummyxmltv.sh
-
-# PORTS
-EXPOSE 34400
 
 # ENTRYPOINT
 ENTRYPOINT ["./startup.sh"]
