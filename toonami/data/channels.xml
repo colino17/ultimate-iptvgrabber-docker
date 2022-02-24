@@ -57,7 +57,7 @@
         <display-name>MTV97</display-name>
         <lang>en</lang>
         <country>us</country>
-        <icon>https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/mtv.png</icon>
+        <icon>https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/mtv97.png</icon>
         <url>http://api.toonamiaftermath.com:3000/mtv97/playlist.m3u8?useHttps=true</url>
         <group>Music</group>
         <offset>+0000</offset>
