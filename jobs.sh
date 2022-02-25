@@ -3,7 +3,7 @@
 # DUMMY XMLTV
 if [ $DUMMY=true ]; then
 echo "Creating DUMMY XMLTV data..."
-/bin/bash /dummyxmltv.sh
+/bin/bash /dummy/dummyxmltv.sh
 sleep 1
 fi
 
@@ -17,7 +17,7 @@ fi
 # USTVGO
 if [ $USTV=true ]; then
 echo "Retrieving M3U and XMLTV data from USTVGO..."
-python3 /ustv.py
+python3 /ustv/ustv.py
 sleep 1
 fi
 
