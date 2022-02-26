@@ -27,6 +27,7 @@ RUN mkdir /playlists
 # TOONAMI
 ADD toonami toonami/
 RUN mkdir /toonami/config
+RUN mkdir /tmp
 
 # DUMMY XMLTV
 ADD dummy /dummy
