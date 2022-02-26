@@ -34,7 +34,7 @@ class ToonamiAftermath:
     if os.path.exists(data_out_dir):
         m3u_file_name = '/playlists/toonami.m3u'
         xmltv_file_name = '/xmltv/toonami.xml'
-        media_info_file = '/xmltv/toonamimediainfo.xml'
+        media_info_file = '/tmp/toonamimediainfo.xml'
     else:
         m3u_file_name = 'toonami.m3u'
         xmltv_file_name = 'toonami.xml'
