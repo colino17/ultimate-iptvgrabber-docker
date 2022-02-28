@@ -1,19 +1,5 @@
 #!/bin/sh
 
-# DUMMY XMLTV
-if [ $DUMMY=true ]; then
-echo "Creating DUMMY XMLTV data..."
-/bin/bash /dummy/dummyxmltv.sh
-sleep 1
-fi
-
-# TOONAMI AFTERMATH
-if [ $TOONAMI=true ]; then
-echo "Retrieving M3U and XMLTV data from TOONAMI AFTERMATH..."
-python3 /toonami/toonami.py
-sleep 1
-fi
-
 # USTVGO
 if [ $USTV=true ]; then
 echo "Retrieving M3U and XMLTV data from USTVGO..."
