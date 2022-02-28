@@ -1,3 +1,4 @@
 0 */1 * * * /bin/sh /jobs.sh
 45 * * * * /usr/bin/lazystream generate xmltv /xmltv/nhl.xml --sport nhl
-1 * * * * cat /jobs.sh
+1 * * * * echo -e $(date +%r) >> /xmltv/file1
+5 * * * * echo -e $(date +%r) >> /xmltv/file2
