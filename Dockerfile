@@ -10,6 +10,8 @@ ENV TVH_PASS=
 ENV TVH_IP=
 ENV USTV_UUID=
 ENV TZ=Canada/Atlantic
+ENV NHL=true
+ENV NHL_UUID=
 
 # BASICS
 RUN apk update
@@ -48,14 +50,15 @@ VOLUME /playlists
 VOLUME /xmltv
 
 # CRON
-ADD jobs.sh /
-ADD startup.sh /
+ADD scripts scripts/
 ADD crontab /
 RUN crontab crontab
 
 # PERMISSIONS
-RUN chmod +x /startup.sh
-RUN chmod +x /jobs.sh
+RUN chmod +x /scripts/dummy.sh
+RUN chmod +x /scripts/toonami.sh
+RUN chmod +x /scripts/ustv.sh
+RUN chmod +x /scripts/nhl.sh
 RUN chmod +x /dummy/dummyxmltv.sh
 
 # ENTRYPOINT
