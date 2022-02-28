@@ -59,5 +59,5 @@ RUN chmod +x /jobs.sh
 RUN chmod +x /dummy/dummyxmltv.sh
 
 # ENTRYPOINT
-# ENTRYPOINT ["./startup.sh"]
-CMD ["crond", "-f"]
+ENTRYPOINT ["./startup.sh"]
+#CMD ["crond", "-f"]
