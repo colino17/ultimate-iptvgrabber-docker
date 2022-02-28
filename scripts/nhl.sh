@@ -3,8 +3,10 @@
 # LAZYSTREAM
 if [ $NHL=true ]; then
 echo "Retrieving M3U and XMLTV data from LAZYSTREAM..."
-lazystream generate xmltv /xmltv/nhl.xml --sport nhl --exclude-feeds "COMPOSITE" --channel-prefix "NHL LIVE" --start-channel "1000"
+lazystream generate xmltv /tmp/nhl.xml --sport nhl --exclude-feeds "COMPOSITE" --channel-prefix "NHL LIVE" --start-channel "1000"
 sleep 5
+cp /tmp/nhl.xml /xmltv/nhl.xml
+cp /tmp/nhl.m3u /playlists/nhl.m3u
 fi
 
 # UPDATE TVH VIA API
