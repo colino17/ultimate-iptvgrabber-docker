@@ -21,7 +21,7 @@ import media, mediaInfo, taChannels
 
 _NEW_DATE_FORMAT_MINIMAL = '%Y%m%d'
 _NEW_DATE_FORMAT = '%Y%m%d%H%M%S %z'
-_NEW_DATE_FORMAT_NO_TZ = '%Y%m%d%H%M%S'
+_NEW_DATE_FORMAT_NO_TZ = '%Y%m%d%H%M%S +0000'
 
 
 class ToonamiAftermath:
@@ -181,8 +181,8 @@ class ToonamiAftermath:
             self.LOGGER.debug('The channel {} doesn\'t have a TV guide - Making a 24 hour Mock guide from {} until {}.'.format(
                 channel_object.displayName, _start_time, _end_time))
             for block in rrule.rrule(rrule.HOURLY, dtstart=_start_time, until=_end_time):
-                _block_start_time = self.get_proper_date_time(block, _NEW_DATE_FORMAT_NO)
-                _block_end_time = self.get_proper_date_time(block + timedelta(hours=1), _NEW_DATE_FORMAT_NO)
+                _block_start_time = self.get_proper_date_time(block, _NEW_DATE_FORMAT_NO_TZ)
+                _block_end_time = self.get_proper_date_time(block + timedelta(hours=1), _NEW_DATE_FORMAT_NO_TZ)
                 self.LOGGER.debug('Making 1 hour block from {} until {}.'.format(_block_start_time, _block_end_time))
                 self.TV_OBJECT.programme.append(
                     Programme(
