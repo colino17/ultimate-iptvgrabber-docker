@@ -1,0 +1,11 @@
+numberofchannels=10
+declare -a a0=("tvg-id-channel1" "Channel 1" "Program 1" "Program Description")
+declare -a a1=("tvg-id-channel1" "Channel 2" "Program 2" "Program Description")
+declare -a a2=("tvg-id-channel1" "Channel 3" "Program 3" "Program Description")
+declare -a a3=("tvg-id-channel1" "Channel 4" "Program 4" "Program Description")
+declare -a a4=("tvg-id-channel1" "Channel 5" "Program 5" "Program Description")
+declare -a a5=("tvg-id-channel1" "Channel 6" "Program 6" "Program Description")
+declare -a a6=("tvg-id-channel1" "Channel 7" "Program 7" "Program Description")
+declare -a a7=("tvg-id-channel1" "Channel 8" "Program 8" "Program Description")
+declare -a a8=("tvg-id-channel1" "Channel 9" "Program 9" "Program Description")
+declare -a a9=("tvg-id-channel1" "Channel 10" "Program 10" "Program Description")
