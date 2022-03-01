@@ -10,12 +10,21 @@ ENV TVH_PASS=
 ENV TVH_IP=
 ENV USTV_UUID=
 ENV TZ=Canada/Atlantic
+ENV NHL=true
+ENV NHL_UUID=
 
 # BASICS
 RUN apk update
 RUN apk upgrade
-RUN apk add --no-cache ca-certificates
+RUN apk add --no-cache ca-certificates coreutils shadow gnutls-utils curl bash busybox-suid su-exec tzdata xmltv
 
+# LAZYSTREAM
+RUN wget https://github.com/tarkah/lazystream/releases/download/v1.12.0/lazystream-v1.12.0-x86_64-unknown-linux-musl.tar.gz -O lazystream.tar.gz; \
+    tar xzf lazystream.tar.gz; \
+    mv ././lazystream /usr/bin/lazystream; \
+    rm lazystream.tar.gz; \
+    rm -rf lazystream/
+    
 # USTVGO
 RUN apk add --no-cache python3 py3-pip
 ADD requirements.txt /
@@ -33,11 +42,7 @@ ADD dummy /dummy
 ADD extras /
 
 # TIMEZONE
-RUN apk update && apk add --no-cache tzdata
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
-
-# ASSORTED DEPENDENCIES
-RUN apk add --no-cache curl bash busybox-suid su-exec
 
 # VOLUMES
 VOLUME /extras
@@ -45,15 +50,17 @@ VOLUME /playlists
 VOLUME /xmltv
 
 # CRON
-ADD jobs.sh /
-ADD startup.sh /
+ADD scripts scripts/
 ADD crontab /
 RUN crontab crontab
 
 # PERMISSIONS
-RUN chmod +x /startup.sh
-RUN chmod +x /jobs.sh
+RUN chmod +x /scripts/dummy.sh
+RUN chmod +x /scripts/toonami.sh
+RUN chmod +x /scripts/ustv.sh
+RUN chmod +x /scripts/nhl.sh
 RUN chmod +x /dummy/dummyxmltv.sh
 
 # ENTRYPOINT
-ENTRYPOINT ["./startup.sh"]
+#ENTRYPOINT ["./startup.sh"]
+CMD ["crond", "-f"]

@@ -1,1 +1,4 @@
-0 */1 * * * /bin/sh /jobs.sh
+0 */4 * * * /bin/sh /scripts/ustv.sh
+15 */12 * * * /bin/sh /scripts/dummy.sh
+30 */12 * * * /bin/sh /scripts/toonami.sh
+55 * * * * /bin/sh /scripts/nhl.sh

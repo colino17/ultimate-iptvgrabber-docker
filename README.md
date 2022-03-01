@@ -10,23 +10,28 @@ services:
   iptvgrabber:
     container_name: iptvgrabber
     image: ghcr.io/colino17/ultimate-iptvgrabber-docker:latest
+    network_mode: host
+    restart: always
     volumes:
       - /path/to/playlists:/playlists
       - /path/to/xmltv:/xmltv
       - /path/to/extras:/extras
     environment:
-      ### USTVGO instance
+      ### USTVGO ###
       - USTV=true
       - USTV_UUID=tvheadendnetworkuuid
-      ### TOONAMI AFTERMATH instance
+      ### TOONAMI ###
       - TOONAMI=true
       ### DUMMY XMLTV instance
       - DUMMY=true
-      ### TVHeadEnd integration
+      ### TVHEADEND ###
       - TVH=true
       - TVH_USER=username
       - TVH_PASS=password
       - TVH_IP=ipaddress
+      ### LAZYSTREAM ###
+      - NHL=true
+      - NHL_UUID=tvheadendnetworkuuid
 ```
 
 # TO DO
@@ -39,3 +44,4 @@ services:
 - https://github.com/benmoose39/ustvgo_to_m3u
 - https://github.com/yurividal/dummyepgxml
 - https://github.com/chris102994/docker-toonamiaftermath
+- https://github.com/tarkah/lazystream
