@@ -2,7 +2,7 @@
 
 # USTVGO
 if [ $USTV=true ]; then
-echo "Retrieving M3U and XMLTV data from USTVGO..."
+echo "Retrieving M3U from USTVGO..."
 python3 /ustv/ustv.py
 sleep 1
 fi
