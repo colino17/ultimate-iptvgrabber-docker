@@ -25,7 +25,7 @@ DUMMYFILENAME=dummy.xml
 			tvgid=a$i[0]
 			name=a$i[1]
 			echo '    <channel id="'${!tvgid}'">' >> $BASEPATH/$DUMMYFILENAME
-			echo '        <display-name lang="pt">'${!name}'</display-name>' >> $BASEPATH/$DUMMYFILENAME
+			echo '        <display-name lang="en">'${!name}'</display-name>' >> $BASEPATH/$DUMMYFILENAME
 			echo '    </channel>' >> $BASEPATH/$DUMMYFILENAME
 		done
 
@@ -35,14 +35,14 @@ DUMMYFILENAME=dummy.xml
 			desc=a$i[3]
 			for j in {0..23}; do
 					echo '    <programme start="'$today${starttimes[$j]}' +0000" stop="'$today${endtimes[$j]}' +0000" channel="'${!tvgid}'">' >> $BASEPATH/$DUMMYFILENAME
-					echo '        <title lang="pt">'${!title}'</title>' >> $BASEPATH/$DUMMYFILENAME
-					echo '        <desc lang="pt">'${!desc}'</desc>' >> $BASEPATH/$DUMMYFILENAME
+					echo '        <title lang="en">'${!title}'</title>' >> $BASEPATH/$DUMMYFILENAME
+					echo '        <desc lang="en">'${!desc}'</desc>' >> $BASEPATH/$DUMMYFILENAME
 					echo '    </programme>' >> $BASEPATH/$DUMMYFILENAME
 			done
 			for j in {0..23}; do
 					echo '    <programme start="'$tomorrow${starttimes[$j]}' +0000" stop="'$tomorrow${endtimes[$j]}' +0000" channel="'${!tvgid}'">' >> $BASEPATH/$DUMMYFILENAME
-					echo '        <title lang="pt">'${!title}'</title>' >> $BASEPATH/$DUMMYFILENAME
-					echo '        <desc lang="pt">'${!desc}'</desc>' >> $BASEPATH/$DUMMYFILENAME
+					echo '        <title lang="en">'${!title}'</title>' >> $BASEPATH/$DUMMYFILENAME
+					echo '        <desc lang="en">'${!desc}'</desc>' >> $BASEPATH/$DUMMYFILENAME
 					echo '    </programme>' >> $BASEPATH/$DUMMYFILENAME
 			done
 		done
