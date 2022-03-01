@@ -16,7 +16,7 @@ ENV NHL_UUID=
 # BASICS
 RUN apk update
 RUN apk upgrade
-RUN apk add --no-cache ca-certificates coreutils shadow gnutls-utils curl bash busybox-suid su-exec tzdata
+RUN apk add --no-cache ca-certificates coreutils shadow gnutls-utils curl bash busybox-suid su-exec tzdata xmltv
 
 # LAZYSTREAM
 RUN wget https://github.com/tarkah/lazystream/releases/download/v1.12.0/lazystream-v1.12.0-x86_64-unknown-linux-musl.tar.gz -O lazystream.tar.gz; \
