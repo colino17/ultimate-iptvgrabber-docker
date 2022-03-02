@@ -36,9 +36,7 @@ services:
 
 # TO DO
 
-- Add default channels to dummy scripting
-- Merge xmltv files
-- Refactor xmltv storage (tmp before merge)
+- Add explanatory notes to readme for each function
 - Explore youtube to m3u integration
 - Explore pluto tv integration
 
