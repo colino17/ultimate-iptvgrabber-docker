@@ -15,17 +15,17 @@ sleep 1
 fi
 
 # MERGE DUMMY AND TOONAMI
-if [ $DUMMY=true && $TOONAMI=true ]; then
+if [ $DUMMY=true ] && [ $TOONAMI=true ]; then
 echo "Merging XMLTV data..."
 tv_merge -i /tmp/dummy.xml -m toonami.xml -o /tmp/tmp.xml
 TMP=true
 sleep 1
-elif [ $DUMMY=true && $TOONAMI=false ]; then
+elif [ $DUMMY=true ] && [ $TOONAMI=false ]; then
 echo "Moving XMLTV data..."
 cp /tmp/dummy.xml  /tmp/tmp.xml
 TMP=true
 sleep 1
-elif [ $DUMMY=false && $TOONAMI=true ]; then
+elif [ $DUMMY=false ] && [ $TOONAMI=true ]; then
 echo "Moving XMLTV data..."
 cp /tmp/toonami.xml  /tmp/tmp.xml
 TMP=true
@@ -33,11 +33,11 @@ sleep 1
 fi
 
 # MERGE TMP AND NHL
-if [ $NHL=true && $TMP=true ]; then
+if [ $NHL=true ] && [ $TMP=true ]; then
 echo "Merging XMLTV data..."
 tv_merge -i /tmp/nhl.xml -m /tmp/tmp.xml -o /xmltv/xmltv.xml
 sleep 1
-elif [ $NHL=true && $TMP=false ]; then
+elif [ $NHL=true ] && [ $TMP=false ]; then
 echo "Moving XMLTV data..."
 cp /tmp/nhl.xml  /xmltv/nhl.xml
 sleep 1
