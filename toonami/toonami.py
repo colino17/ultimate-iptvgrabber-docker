@@ -21,7 +21,7 @@ import media, mediaInfo, taChannels
 
 _NEW_DATE_FORMAT_MINIMAL = '%Y%m%d'
 _NEW_DATE_FORMAT = '%Y%m%d%H%M%S %z'
-_NEW_DATE_FORMAT_NO_TZ = '%Y%m%d%H%M%S'
+_NEW_DATE_FORMAT_NO_TZ = '%Y%m%d%H%M%S +0000'
 
 
 class ToonamiAftermath:
@@ -33,7 +33,7 @@ class ToonamiAftermath:
     data_out_dir = '/'
     if os.path.exists(data_out_dir):
         m3u_file_name = '/playlists/toonami.m3u'
-        xmltv_file_name = '/xmltv/toonami.xml'
+        xmltv_file_name = '/tmp/toonami.xml'
         media_info_file = '/tmp/toonamimediainfo.xml'
     else:
         m3u_file_name = 'toonami.m3u'

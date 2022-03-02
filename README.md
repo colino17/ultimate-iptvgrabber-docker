@@ -36,8 +36,11 @@ services:
 
 # TO DO
 
-- Clean Up Cron Function
-- Add lazystream options
+- Add default channels to dummy scripting
+- Merge xmltv files
+- Refactor xmltv storage (tmp before merge)
+- Explore youtube to m3u integration
+- Explore pluto tv integration
 
 # CREDITS AND SOURCES
 

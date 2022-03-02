@@ -1,0 +1,11 @@
+numberofchannels=10
+declare -a a0=("CBCNEWS" "CBCNEWS" "CBC News Live" "The latest news from across Canada and around the world.")
+declare -a a1=("CBSN" "CBSN" "CBS News Live" "The latest, breaking news headlines for national news and world news today.")
+declare -a a2=("ABCNEWS" "ABCNEWS" "ABC News Live" "Your trusted source for breaking news, analysis, exclusive interviews, and headlines.")
+declare -a a3=("HONORTV" "HONORTV" "Ring of Honor Wrestling" "Ring of Honor Wrestling is a professional wrestling television series produced by Ring of Honor.")
+declare -a a4=("WBKIDS" "WBKIDS" "The Best of WB KIDS" "All time classic moments from Tom & Jerry, Looney Tunes and Scooby-Doo.")
+declare -a a5=("DCKIDS" "DCKIDS" "The Best of DC KIDS" "All time classic moments from Teen Titans, DC Super Heroes & More.")
+declare -a a6=("COMEDYDYNAMICS" "COMEDYDYNAMICS" "Comedy Dynamics Stand Up" "A steady stream of the best in stand-up comedy.")
+declare -a a7=("MTV97" "MTV97" "The Best of the 90s" "A blast from the past with the best of MTV straight out of 1997.")
+declare -a a8=("WEATHER" "WEATHER" "Weather Network Live" "The latest local and national weather forecasts.")
+declare -a a9=("GLORY" "GLORY" "GLORY Kickboxing" "The best of GLORY Kickboxing.")
