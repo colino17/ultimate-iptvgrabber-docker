@@ -17,7 +17,7 @@ fi
 # MERGE DUMMY AND TOONAMI
 if [ $DUMMY=true ] && [ $TOONAMI=true ]; then
 echo "Merging XMLTV data..."
-tv_merge -i /tmp/dummy.xml -m toonami.xml -o /tmp/tmp.xml
+tv_merge -i /tmp/dummy.xml -m /tmp/toonami.xml -o /tmp/tmp.xml
 TMP=true
 sleep 1
 elif [ $DUMMY=true ] && [ $TOONAMI=false ]; then
