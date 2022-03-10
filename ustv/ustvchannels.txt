@@ -1,11 +1,11 @@
 ABC | ABC | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/abc.png | 110 | I54231.json.schedulesdirect.org
-ABC | ABCNY | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/abc.png | 110 | I54231.json.schedulesdirect.org
-CBS | CBSNY | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/cbs.png | 111 | I44991.json.schedulesdirect.org
+ABC2 | ABCNY | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/abc.png | 110 | I54231.json.schedulesdirect.org
+CBS2 | CBSNY | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/cbs.png | 111 | I44991.json.schedulesdirect.org
 CBS | CBS | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/cbs.png | 111 | I44991.json.schedulesdirect.org
 FOX | FOX | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/fox.png | 112 | I54251.json.schedulesdirect.org
-FOX | FOXNY | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/fox.png | 112 | I54251.json.schedulesdirect.org
+FOX2 | FOXNY | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/fox.png | 112 | I54251.json.schedulesdirect.org
 CW | CW | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/cw.png | 114 | I52329.json.schedulesdirect.org
-CW | CWNY | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/cw.png | 114 | I52329.json.schedulesdirect.org
+CW2 | CWNY | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/cw.png | 114 | I52329.json.schedulesdirect.org
 ION | IONNY | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/ion.png | 115 | WPXN
 PBS | PBS | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/pbs.png | 116 | WNET
 TBS | TBS | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/tbs.png | 120 | I11867.json.schedulesdirect.org
