@@ -1,4 +1,4 @@
-numberofchannels=10
+numberofchannels=11
 declare -a a0=("CBCNEWS" "CBCNEWS" "CBC News Live" "The latest news from across Canada and around the world.")
 declare -a a1=("CBSN" "CBSN" "CBS News Live" "The latest, breaking news headlines for national news and world news today.")
 declare -a a2=("ABCNEWS" "ABCNEWS" "ABC News Live" "Your trusted source for breaking news, analysis, exclusive interviews, and headlines.")
@@ -9,3 +9,4 @@ declare -a a6=("COMEDYDYNAMICS" "COMEDYDYNAMICS" "Comedy Dynamics Stand Up" "A s
 declare -a a7=("MTV97" "MTV97" "The Best of the 90s" "A blast from the past with the best of MTV straight out of 1997.")
 declare -a a8=("WEATHER" "WEATHER" "Weather Network Live" "The latest local and national weather forecasts.")
 declare -a a9=("GLORY" "GLORY" "GLORY Kickboxing" "The best of GLORY Kickboxing.")
+declare -a a10=("HAUNT" "HAUNT" "Haunt TV" "The scariest and spookiest shows alive....or dead.")
