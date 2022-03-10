@@ -39,7 +39,7 @@ DESTINATIONAMERICA | DA | https://raw.githubusercontent.com/colino17/ultimate-ip
 MOTORTREND | MotorTrend | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/motortrend.png | 340 | I31046.json.schedulesdirect.org
 ANIMALPLANET | Animal | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/animalplanet.png | 350 | ANIMAL PLANET
 NATGEOWILD | NatGEOWild | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/natgeowild.png | 351 | I67331.json.schedulesdirect.org
-E! | E | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/e.png | 390 | E
+E | E | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/e.png | 390 | E
 CARTOONNETWORK | CN | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/cartoonnetwork.png | 400 | I12131.json.schedulesdirect.org
 NICKELODEON | Nickelodeon | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/nickelodeon.png | 401 | I11006.json.schedulesdirect.org
 BOOMERANG | Boomerang | https://raw.githubusercontent.com/colino17/ultimate-iptvgrabber-docker/master/logos/boomerang.png | 411 | I21883.json.schedulesdirect.org
