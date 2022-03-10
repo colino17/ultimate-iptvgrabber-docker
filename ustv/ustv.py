@@ -53,7 +53,7 @@ def grab(name, code, logo, cuid, tvgid):
         }
         m3u = s.get(f'https://ustvgo.tv/player.php?stream={code}', headers=headers).text
         m3u = m3u.replace('\n', '').split("var hls_src='")[1].split("'")[0]
-        playlist.write(f'\n#EXTINF:-1 CUID="{cuid}" tvg-id="{tvgid}" tvg-logo="{logo}" m3u-name="{name}" tvh-chnum="{cuid}", {name}')
+        playlist.write(f'\n#EXTINF:-1 CUID="{cuid}" tvg-id="{tvgid}" tvg-logo="{logo}" m3u-name="{name}" tvh-chnum="{cuid}",{name}')
         playlist.write(f'\n{m3u}')
     except:
         write_log(f'[!] Error grabbing {name} - This channel requires VPN')
