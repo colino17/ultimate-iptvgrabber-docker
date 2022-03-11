@@ -4,7 +4,7 @@ A docker container running various IPTV Grabber services designed to be used eit
 
 # COMPOSE
 
-```
+```yaml
 version: '2'
 services:
   iptvgrabber:
