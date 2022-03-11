@@ -39,6 +39,7 @@ services:
 - Add explanatory notes to readme for each function
 - Explore youtube to m3u integration
 - Explore pluto tv integration
+- Reassess current use of API calls
 
 # CREDITS AND SOURCES
 
