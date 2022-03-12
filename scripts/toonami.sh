@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # TOONAMI AFTERMATH
 if [ $TOONAMI = "true" ]; then
