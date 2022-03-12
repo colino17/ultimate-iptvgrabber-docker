@@ -56,7 +56,6 @@ ADD crontab /
 RUN crontab crontab
 
 # PERMISSIONS
-RUN chmod +x /scripts/dummy.sh
 RUN chmod +x /scripts/toonami.sh
 RUN chmod +x /scripts/ustv.sh
 RUN chmod +x /scripts/nhl.sh
