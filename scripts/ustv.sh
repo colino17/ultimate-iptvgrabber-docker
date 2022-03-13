@@ -13,17 +13,18 @@ echo "Creating individual channels M3Us..."
      lineB=$(sed -n "${B}p" "/playlists/ustvgo.m3u")
      name=$(cut -d "," -f2- <<< "$lineA")
      echo "#EXTM3U
-     $lineA
-     $lineB" > "/playlists/$name.m3u"
+  #EXT-X-VERSION:3
+  #EXT-X-STREAM-INF:BANDWIDTH=1383144,RESOLUTION=640x360,CODECS="avc1.64001e,mp4a.40.2"
+  $lineB" > "$name.m3u8"
   done
 fi
 
 # UPDATE TVH VIA API
-if [ $TVH = "true" ] && [ $USTV=true ]; then
-echo "Scanning Channels..."
-curl http://$TVH_USER:$TVH_PASS@$TVH_IP:9981/api/mpegts/network/scan?uuid=$USTV_UUID
-sleep 5
-fi
+#if [ $TVH = "true" ] && [ $USTV=true ]; then
+#echo "Scanning Channels..."
+#curl http://$TVH_USER:$TVH_PASS@$TVH_IP:9981/api/mpegts/network/scan?uuid=$USTV_UUID
+#sleep 5
+#fi
 
 if [ $TVH = "true" ]; then
 echo "Updating EPG..."
