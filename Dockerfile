@@ -60,6 +60,5 @@ RUN chmod +x /scripts/ustv.sh
 RUN chmod +x /scripts/nhl.sh
 RUN chmod +x /dummy/dummyxmltv.sh
 
-# ENTRYPOINT
-#ENTRYPOINT ["./startup.sh"]
+# CMD
 CMD ["crond", "-f"]
