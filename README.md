@@ -59,6 +59,7 @@ services:
 - Explore youtube to m3u integration
 - Explore pluto tv integration
 - Reassess current use of API calls
+- Remove UUID ENV variables
 
 # CREDITS AND SOURCES
 
