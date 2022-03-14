@@ -13,9 +13,9 @@ echo "Creating individual channels M3Us..."
      lineB=$(sed -n "${B}p" "/playlists/ustvgo.m3u")
      name=$(cut -d "," -f2- <<< "$lineA")
      echo "#EXTM3U
-  #EXT-X-VERSION:3
-  #EXT-X-STREAM-INF:BANDWIDTH=1383144,RESOLUTION=640x360,CODECS="avc1.64001e,mp4a.40.2"
-  $lineB" > "$name.m3u8"
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=1383144,RESOLUTION=640x360
+$lineB" > "/playlists/$name.m3u8"
   done
 fi
 
