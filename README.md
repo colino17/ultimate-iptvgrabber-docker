@@ -37,21 +37,14 @@ services:
       - /path/to/xmltv:/xmltv
       - /path/to/extras:/extras
     environment:
-      ### USTVGO ###
       - USTV=true
-      - USTV_UUID=tvheadendnetworkuuid
-      ### TOONAMI ###
       - TOONAMI=true
-      ### DUMMY XMLTV instance
+      - NHL=true
       - DUMMY=true
-      ### TVHEADEND ###
       - TVH=true
       - TVH_USER=username
       - TVH_PASS=password
       - TVH_IP=ipaddress
-      ### LAZYSTREAM ###
-      - NHL=true
-      - NHL_UUID=tvheadendnetworkuuid
 ```
 
 # TO DO
