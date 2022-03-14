@@ -54,6 +54,7 @@ services:
 - Reassess current use of API calls
 - Remove UUID ENV variables
 - Explore LM static linking with failover writes
+- Need new CBC logos
 
 # CREDITS AND SOURCES
 
