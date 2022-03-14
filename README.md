@@ -53,6 +53,7 @@ services:
 - Explore pluto tv integration
 - Reassess current use of API calls
 - Remove UUID ENV variables
+- Explore LM static linking with failover writes
 
 # CREDITS AND SOURCES
 
