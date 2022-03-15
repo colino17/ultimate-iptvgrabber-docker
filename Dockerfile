@@ -4,14 +4,13 @@ FROM alpine:latest
 ENV USTV=true
 ENV DUMMY=true
 ENV TOONAMI=true
+ENV NHL=true
 ENV TVH=true
 ENV TVH_USER=
 ENV TVH_PASS=
 ENV TVH_IP=
-ENV USTV_UUID=
+ENV FAILOVER_PATH=
 ENV TZ=Canada/Atlantic
-ENV NHL=true
-ENV NHL_UUID=
 
 # BASICS
 RUN apk update
@@ -61,6 +60,5 @@ RUN chmod +x /scripts/ustv.sh
 RUN chmod +x /scripts/nhl.sh
 RUN chmod +x /dummy/dummyxmltv.sh
 
-# ENTRYPOINT
-#ENTRYPOINT ["./startup.sh"]
+# CMD
 CMD ["crond", "-f"]

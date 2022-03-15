@@ -16,7 +16,7 @@ The Toonami Aftermath grabber will parse the Toonami Aftermath website and creat
 The Dummy grabber will create an XMLTV file with Dummy data for your predefined channels. Custom channels can be defined by placing a "channels" file in the /extras directory. The format of this file can be seen in the sample provided in the repo. The XMLTV file will be merged with the XMLTV files from the Toonami and Lazystream grabbers and be placed in the /xmltv directory.
 
 ### LAZYSTREAM
-The Lazystream grabber will pull a master M3U and XMLTV from the Lazystream service every hour. It will also parse the master M3U and create individual M3U files for each channel in the /playlists directory. It is recommended that you serve these individual M3U files locally using https://github.com/colino17/file-server-docker so that you can provide TVHeadEnd (or any other service) with a static source.
+The Lazystream grabber will pull a master M3U and XMLTV from the Lazystream service every hour. It will also parse the master M3U and create individual M3U8 files for each channel in the /playlists directory. If no stream is available for a particular channel when the FAILOVER_PATH environment variable will be used. It is recommended that you serve these individual M3U files locally using https://github.com/colino17/file-server-docker so that you can provide TVHeadEnd (or any other service) with a static source.
 
 ### TVHEADEND
 This project is designed to work with TVHeadEnd. The details of your TVHeadEnd instance are provided using environment variables.
@@ -45,15 +45,13 @@ services:
       - TVH_USER=username
       - TVH_PASS=password
       - TVH_IP=ipaddress
+      - FAILOVER_PATH=failoverstreamaddress
 ```
 
 # TO DO
 
 - Explore youtube to m3u integration
 - Explore pluto tv integration
-- Reassess current use of API calls
-- Remove UUID ENV variables
-- Explore LM static linking with failover writes
 - Need new CBC logos
 
 # CREDITS AND SOURCES
