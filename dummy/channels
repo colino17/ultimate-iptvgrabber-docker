@@ -1,4 +1,4 @@
-numberofchannels=11
+numberofchannels=16
 declare -a a0=("CBCNEWS" "CBCNEWS" "CBC News Live" "The latest news from across Canada and around the world.")
 declare -a a1=("CBSN" "CBSN" "CBS News Live" "The latest, breaking news headlines for national news and world news today.")
 declare -a a2=("ABCNEWS" "ABCNEWS" "ABC News Live" "Your trusted source for breaking news, analysis, exclusive interviews, and headlines.")
@@ -10,3 +10,8 @@ declare -a a7=("MTV97" "MTV97" "The Best of the 90s" "A blast from the past with
 declare -a a8=("WEATHER" "WEATHER" "Weather Network Live" "The latest local and national weather forecasts.")
 declare -a a9=("GLORY" "GLORY" "GLORY Kickboxing" "The best of GLORY Kickboxing.")
 declare -a a10=("HAUNT" "HAUNT" "Haunt TV" "The scariest and spookiest shows alive....or dead.")
+declare -a a11=("GLOBALNEWS" "GLOBALNEWS" "Global News Live" "The latest news from across Canada and around the world.")
+declare -a a12=("STADIUM" "STADIUM" "Stadium Sports" "Your source for sports news and information.")
+declare -a a13=("OLYMPICS" "OLYMPICS" "Olympic Games" "New and classic Olympic Games coverage.")
+declare -a a14=("FIREPLACE" "FIREPLACE" "Fireplace" "The warm glow of a cozy fireplace.")
+declare -a a15=("AQUARIUM" "AQUARIUM" "Aquarium" "Peaceful and tranquil aquarium coverage.")
